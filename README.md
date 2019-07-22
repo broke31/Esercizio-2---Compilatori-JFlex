@@ -6,4 +6,5 @@ Sono stati implementati tramite JFlex i seguenti token:<br>
 #### opts: + - * > < = == <= >= != && || <br>
 #### nomiVariaibli _nomeVar nomaVar nomeVarNumber(nomeVar)* <br>
 #### numeri Interi <br>
-#### Numeri float
+#### Numeri float <br>
+#### Stringhe
