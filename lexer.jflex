@@ -71,6 +71,7 @@ StringLiteral = [^\r\n\"\\]
   "+"          { return generateToken(Symbol.PLUS); 	}
   "-"          { return generateToken(Symbol.MINUS); 	}
   "*"          { return generateToken(Symbol.TIMES); 	}
+  "/"		   { return generateToken(Symbol.DIV);		}
   ">"          { return generateToken(Symbol.GT);		}
   "<"          { return generateToken(Symbol.LT);		}
   "="          { return generateToken(Symbol.EG);		}

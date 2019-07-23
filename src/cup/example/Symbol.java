@@ -41,10 +41,11 @@ public class Symbol {
   public static final int TIMES = 30;
   public static final int LPAREN = 31;
   public static final int STRING_LITERAL = 32;
+  public static final int DIV= 33;
   public static final String[] terminalNames = new String[] {"EOF", "ident", "DecLiteral", "RBRACK",
       "LBRACK", "RBRACE", "LBRACE", "ELSE", "THEN", "EGEG", "DoubleLiteral", "EG", "LT", "GT", "IF",
       "OR", "FOR", "DOT", "GEG", "LEG", "NOT", "AND", "WHILE", "MINUS", "UMINUS", "NUMBER", "SEMI",
-      "PLUS", "error", "RPAREN", "TIMES", "LPAREN", "STRING_LITERAL",};
+      "PLUS", "error", "RPAREN", "TIMES", "LPAREN", "STRING_LITERAL","DIV"};
 
   private int type;
   private int lineValue;
