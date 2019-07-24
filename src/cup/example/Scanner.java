@@ -649,12 +649,14 @@ class Scanner {
    * @param   errorCode  the code of the errormessage to display
    */
   private void zzScanError(int errorCode) {
-    String message;
+    String message=  "";
     try {
       message = ZZ_ERROR_MSG[errorCode];
+      message = "\nCarattere non riconosciuto";
     }
     catch (ArrayIndexOutOfBoundsException e) {
-      message = ZZ_ERROR_MSG[ZZ_UNKNOWN_ERROR];
+      //message = ZZ_ERROR_MSG[ZZ_UNKNOWN_ERROR];
+      message = "\nCarattere non riconosciuto";
     }
 
     throw new Error(message);
